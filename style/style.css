@@ -363,6 +363,7 @@ header {
     align-items: center;
     justify-content: center;
 }
+
 form {
     width: 80%;
     max-width: 600px;
@@ -412,14 +413,6 @@ input, textarea {
 }
 
 
-
-
-
-
-
-
-
-
 /********* footer section ***********/
 .footer {
     text-align: center;
@@ -435,6 +428,163 @@ input, textarea {
     padding: 40px 100px;
 }
 
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    /********** Header Area ***********/
+    .nav-area {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+    .menu nav ul {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .header-content p {
+        padding: ;
+        width: 90%;
+    }
+
+    .banner img {
+        width: 80%;
+    }
+
+
+    /********** features section ***********/
+    .features {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 85px auto;
+    }
+
+    .team {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .team-number img {
+        width: 300px;
+        height: 300px;
+    }
+    
+
+    /*********** Experience Section ***********/
+    .experience-info {
+        flex-direction: column;
+        column-gap: 65px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .experience-title h1 {
+        width: 60%;
+        margin: auto;
+        font-size: 35px;
+        padding: 0 20px;
+    }
+
+    .experiences p {
+        width: 58%;
+        margin: auto;
+    }
+
+    /* .blog-features article{
+        width: 90%;
+        margin: auto;
+    } */
+
+    .experience-media img {
+        margin-top: 100px;
+        width: 300px;
+        height: auto;
+    }
+
+    .experience-media button {
+        padding: 20px 25px;
+        position: relative;
+        left: 0;
+        top: 30px;
+    }
+
+
+    /*********** facts section ***********/
+    .all-facts {
+        text-align: center;
+    }
+    
+    .facts-analysis {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .facts {
+        margin-top: 70px;
+    }
+
+    .facts-title p {
+        width: 80%;
+        margin: auto;
+    }
+
+
+    /*********** sponspors section ************/
+    .sponspor-info p {
+        width: 80%;
+    }
+
+    .sponspor-company {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+    }
+
+    .sponspor-company img{
+        width: 150px;
+        height: auto;
+    }
+
+
+    /*********** Contact Section **********/
+    .contact-info {
+        width: 90%;
+    }
+
+    .contacts {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input-row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-form button {
+        width: 50%;
+    }
+
+ 
+    
+
+}
 
 
 
