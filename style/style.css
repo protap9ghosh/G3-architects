@@ -6,9 +6,11 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-.title {
-    
+:root {
+    --primary-color: #131313;
+    --secondary-color: #FF900E;
 }
+
 /********** Header Area ***********/
 header {
     background: rgba(255, 144, 14, 0.1);
@@ -21,7 +23,7 @@ header {
 }
 
 .logo h1 a {
-    color: #131313;
+    color: var(--primary-color);
     font-style: normal;
     font-weight: 700;
     font-size: 35px;
@@ -34,7 +36,7 @@ header {
     align-items: center;
 }
 
-.menu nav ul li {
+.menu nav ul li {424242
     display: inline-block;
     list-style: none;
     margin: 0 25px;
@@ -53,7 +55,7 @@ header {
 }
 
 .header-content h1 {
-    color: #131313;
+    color: var(--primary-color);
     font-size: 55px;
     font-weight: 700;
     font-style: normal;
@@ -76,7 +78,7 @@ header {
     font-weight: 500;
     font-style: normal;
     border: none;
-    background-color: #FF900E;
+    background-color: var(--secondary-color);
     border-radius: 7px;
     padding: 15px 25px;
     margin: 32px 0 50px 0;
@@ -123,7 +125,7 @@ header {
 }
 
 .features-info h1 {
-    color: #131313;
+    color: var(--primary-color);
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
@@ -137,7 +139,7 @@ header {
 }
 
 .features-info h1 .gold {
-    color: #FF900E;
+    color: var(--secondary-color);
 }
 
 .features-info p {
@@ -169,12 +171,12 @@ header {
 .experience-title hr {
     width: 5px;
     height: 106px;
-    background: #FF900E;
+    background: var(--secondary-color);
     border: none;
 }
 
 .experience-title h1 {
-    color: #131313;
+    color: var(--primary-color);
     width: 450px;
     font-size: 44px;
     line-height: 53px;
@@ -200,7 +202,7 @@ header {
 }
 
 .blog-features h3 {
-    color: #131313;
+    color: var(--primary-color);
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -228,7 +230,8 @@ header {
     font-style: normal;
     line-height: 25px;
     border-radius: 8px;
-    border: none;background: #FF900E;
+    border: none;
+    background: var(--secondary-color);
     padding: 20px 25px;
     position: relative;
     left: -30px;
@@ -250,7 +253,7 @@ header {
 }
 
 .title {
-    color: #131313;
+    color: var(--primary-color);
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
@@ -279,7 +282,7 @@ header {
     width: 200px;
     height: 200px;
     text-align: center;
-    border: 2px solid #FF900E;
+    border: 2px solid var(--secondary-color);
     border-radius: 8px;
     transition: .5s;
 }
