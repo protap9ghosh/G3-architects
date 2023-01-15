@@ -36,7 +36,7 @@ header {
     align-items: center;
 }
 
-.menu nav ul li {424242
+.menu nav ul li {
     display: inline-block;
     list-style: none;
     margin: 0 25px;
@@ -332,6 +332,92 @@ header {
     width: 130px;
     height: auto;
 }
+
+
+/*********** Contact Section **********/
+.contact-form{
+    padding: 30px 0 50px 0;
+    background-color: #fad6e45d;
+}
+
+.contact-info {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    
+}
+.contact-info .title {
+    color: var(--primary-color);
+}
+
+.contact-info p {
+    color: #727272;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 30px 0 50px 0;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    width: 80%;
+    max-width: 600px;
+}
+
+.input-group {
+    margin-bottom: 30px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    color: #FFFFFF;
+    border: 1px solid lightgray;
+    background: transparent;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.contact-form button {
+    font-size: 18px;
+    padding: 15px 25px;
+    color: #ffffff;
+    outline: 0;
+    background: var(--secondary-color);
+    border: 1px solid #FF900E;
+    width: 20%;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .2s;
+}
+
+.contact-form button:hover {
+    background-color: #df7f11;
+}
+
+.input-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+
+.input-row .input-group {
+    flex-basis: 48%;
+}
+
+
+
+
+
+
+
+
 
 
 /********* footer section ***********/
