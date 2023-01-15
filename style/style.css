@@ -20,11 +20,13 @@ header {
     padding-top: 40px;
 }
 
-.logo h1 {
+.logo h1 a {
+    color: #131313;
     font-style: normal;
     font-weight: 700;
     font-size: 35px;
     margin-top: 10px;
+    text-decoration: none;
 }
 
 .menu nav ul {
@@ -284,7 +286,16 @@ header {
 
 .facts:hover {
     color: #4a4e69;
-    background-color: #ffc8dd;
+    background-color: #ffc8dd83;
+}
+
+.facts-info img {
+    transition: .5s;
+}
+
+.facts-info:hover img {
+    transform: scale(1.3);
+    transition: .5s;
 }
 
 .facts-info {
